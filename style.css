@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-color: #638CAA;
+}
+                                  /* Nav bar */
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  width: 550px;
+}
+
+li a {
+  display: inline-block;
+  font-size: 14px;
+  width: 80px;
+  color: white;
+  margin: 0;
+  padding: 15px 0px;
+  text-decoration: none;
+}
+
+li a:hover {
+  /* background-color: wheat; */
+  color: red;
+  text-decoration: underline;
+}
+
+li {
+  display: inline;
+}
+
+                        /* Logo */
+
+
+.apple-logo {
+  display: inline;
+  float: left;
+  width: 40px;
+  padding: 20px 220px;
+}
+
+                                /* Image formating */
+
+
+img {
+  width: 225px;
+}
+
+main > img {
+  width: 500px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+                      /* Display 2x 3x 4x  and center*/
+
+.block-4x {
+  width: 25%;
+  padding: 10px 0;
+}
+
+.block-3x {
+  width: 33.33%;
+  padding: 10px 0;
+  height: 125px;
+}
+
+.block-2x {
+  width: 50%;
+  padding: 10px 0;
+  height: 225px;
+}
+
+.center {
+  text-align: center;
+}
+
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+.clear {
+  clear: both;
+}
+
+                      /* Colors */
+                                 
+.bg-lightgray {
+    background-color: #DBDBDB;
+  }
+.bg-lightbrown {
+    background-color: #BCB9AA;
+  }
+.bg-cyan {
+    background-color: #9CE0D1;
+  }
+.bg-gray{
+    background-color: #9AA7B8;
+  }
+.bg-lightblue {
+    background-color:#B7CED6;
+  }
+.bg-lightorange {
+    background-color: #F1A68E;
+  }
+.bg-purple{
+    background-color: #514354;
+  }
+.white {
+    color: white;
+  }
+
+
+                            /* Titles and Text */
+
+.title {
+  /* text-align: center; */
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.text {
+  color: white;
+  text-align: justify;
+  padding: 0 20px;
+  text-indent: 10px;
+  font-size: 18px;
+}
+
+
+                              /* Icon-Links */
+
+
+div a {
+  display: inline-block;
+  color: white;
+  padding: 50px 40px;
+}
+
+
+                             /* Footer */
+
+footer p  {
+  padding: 20px;
+  margin: 0px;
+}
+
+
+
